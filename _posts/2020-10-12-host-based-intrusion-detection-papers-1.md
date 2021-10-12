@@ -21,7 +21,7 @@ title:  "HIDS (Host-based Intrusion Detection Related Paper Review: Part 1)"
 
 * Two types of intrusion detection: Misuse detection & Anomaly detection.
 * *Attack types*: DoS (Denial of Service), U2R (User versus Root), R2L (Remote versus Local), Probe attack.
-* *Datasets used in previous research*: KDD99, UNM (System call data), ADFA (2013 | Relevant for modern systems | System call data).
+* *Datasets used in previous research*: KDD99, UNM (System call data), ADFA (2013, Relevant for modern systems, System call data).
 * *Few-shot learning*: Meta-learning & Metric-learning.
 * *Steps of the work*: LID-DS, preprocessing, image generation, Siamese Network, Siamese-CNN, and N-way K-Shot Learning
 
