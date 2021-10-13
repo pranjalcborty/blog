@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "HIDS (Host-based Intrusion Detection Related Paper Review: Part 1)"
+title:  "Paper Reviews: Part 1"
+tags: HIDS Paper
 ---
 
 ### [Host-Based Intrusion Detection Model Using Siamese Network, May 2021](https://ieeexplore.ieee.org/document/9436776)
