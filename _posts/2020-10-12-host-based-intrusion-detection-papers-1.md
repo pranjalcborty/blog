@@ -4,6 +4,11 @@ title:  "Paper Reviews: Part 1"
 tags: HIDS Paper
 ---
 
+### Reviewed papers:
+1. Host-Based Intrusion Detection Model Using Siamese Network
+2. SCADS: A Scalable Approach Using Spark in Cloud for Host-based Intrusion Detection System with System Calls
+
+
 ### [Host-Based Intrusion Detection Model Using Siamese Network, May 2021](https://ieeexplore.ieee.org/document/9436776)
 
 ##### Key Informations
