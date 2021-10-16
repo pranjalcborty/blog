@@ -2,6 +2,7 @@
 layout: post
 title: "[Review] Multi-level host-based intrusion detection system for Internet of things"
 tags: HIDS IoT Review
+author: "Pranjal Chakraborty"
 ---
 
 ### [Multi-level host-based intrusion detection system for Internet of things, 2020](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00206-6)

@@ -2,6 +2,7 @@
 layout: post
 title: "[Review] Host-Based Intrusion Detection Model Using Siamese Network"
 tags: HIDS CNN LID-DS Review
+author: "Pranjal Chakraborty"
 ---
 
 ### [Host-Based Intrusion Detection Model Using Siamese Network, May 2021](https://ieeexplore.ieee.org/document/9436776)

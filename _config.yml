@@ -9,7 +9,7 @@ baseurl: "/blog"
 url: "https://www.pranjal.net"
 linkedin_username: pcborty
 github_username:  pranjalcborty
-show_excerpts: true
+show_excerpts: false
 
 # Build settings
 theme: minima

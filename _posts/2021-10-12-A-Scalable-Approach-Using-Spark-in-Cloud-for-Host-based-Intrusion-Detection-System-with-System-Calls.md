@@ -2,6 +2,7 @@
 layout: post
 title: "[Review] SCADS: A Scalable Approach Using Spark in Cloud for Host-based Intrusion Detection System with System Calls"
 tags: HIDS Spark ADFA-LD Review
+author: "Pranjal Chakraborty"
 ---
 
 ### [SCADS: A Scalable Approach Using Spark in Cloud for Host-based Intrusion Detection System with System Calls, Sep 2021](https://arxiv.org/abs/2109.11821)
