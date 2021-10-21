@@ -13,8 +13,21 @@ author: "Pranjal Chakraborty"
 
 #### Information from the paper
 * Important features are selected using factor without regularization, derived from Logistic Regression. (Why not p-values? Not discussed.)
-* Very high accuracy than the previous works.
+* Very high accuracy than the previous works
 
 #### Possible improvement(s) or extension(s)
 * Can be applied on custom datasets and check the robustness of the technique
 
+### [Anomaly Generation Using Generative Adversarial Networks in Host-Based Intrusion Detection, 2018](https://ieeexplore.ieee.org/abstract/document/8796769)
+
+#### Key information
+* Dataset: ADFA-LD
+* Architecture: Cycle-GAN
+* The purpose is to detect anomalies
+
+#### Information from the paper
+* Converted existing data into images and produced synthetic anomalous data using GAN to balance the dataset
+* Used MLP for classification
+
+#### Possible improvement(s) or extension(s)
+* Introducing data augmentation befor CycleGAN could be interesting
