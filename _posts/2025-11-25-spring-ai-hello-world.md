@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: 'Hello World'"
-tags: HIDS Spark ADFA-LD Review
+tags: AI,GenAI
 author: "Pranjal Chakraborty"
 ---
 
@@ -13,7 +13,7 @@ Let’s dive in!
 
 > Repository: https://github.com/pranjalcborty/spring-ai-agentic-starter
 
-## Setting up your build script
+## Setting up Your Build Script
 
 Since this is our “Hello World” project, we’ll be starting with the bare minimum, without sacrificing what Spring AI is offering us. I am using Gradle as my build tool, but you can go with Maven.
 
