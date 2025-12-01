@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: 'Hello World'"
-tags: AI,GenAI
+tags: ai genai agentic
 author: "Pranjal Chakraborty"
 ---
 
@@ -101,7 +101,7 @@ public class AssistantController {
 
 Here, we have exposed an API that receives a `java.lang.String` and sends it as a prompt to Gemini. And, since we have not set up continuous conversation (which we will do eventually), every query is in a new context!
 
-!["Say my name"](/assets/images/2.png)
+!["Say my name"](/blog/assets/images/2.png)
 
 ---
 
