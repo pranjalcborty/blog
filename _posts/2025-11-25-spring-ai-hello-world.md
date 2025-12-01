@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring AI Series: 'Hello World'"
+title: "Spring AI Series: #0 'Hello World'"
 tags: ai genai agentic
 author: "Pranjal Chakraborty"
 ---
