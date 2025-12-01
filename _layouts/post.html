@@ -23,12 +23,6 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      <span>
-        • {% for tag in page.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/blog/{{ tag_name }}.html"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-        {% endfor %}
-      </span>
       {%- endif -%}</p>
   </header>
 
