@@ -5,7 +5,7 @@ tags: ai genai agentic
 author: "Pranjal Chakraborty"
 ---
 
-> Check the previous article before reading this: [Spring AI Series: #0 'Hello World'](https://pranjal.net/blog/2025/11/25/spring-ai-hello-world.html)
+> Check the previous article before reading this: ['Hello World'](https://pranjal.net/blog/2025/11/25/spring-ai-hello-world.html)
 
 In this installment, we’ll explore some more fun Spring AI stuffs!
 
