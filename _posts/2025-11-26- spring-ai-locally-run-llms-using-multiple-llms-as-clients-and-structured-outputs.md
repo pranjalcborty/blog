@@ -13,7 +13,7 @@ In this installment, we’ll explore some more fun Spring AI stuffs!
 
 In this instalment, we’ll set up Ollama to run a local model, instead of Gemini through their API key. If you do not have a powerful GPU, it’ll be painfully slow, but you’ll have the idea on how to set one up. We’ll run Ollama on Docker, so you have to make sure you have Docker installed in your machine. You can run Ollama with or without GPU, but I’ll highly recommend to have your GPU set up if you have one.
 
-To have your Nvidia GPU available to your docker containers, you need to have Nvidia Container Toolkit installed in your machine. Just follow the steps described here. After that, tell your docker instance to use Nvidia drivers. And then run ollama. (These steps are directly taken from dockerhub. It’s as uncomplicated as it can get!)
+To have your Nvidia GPU available to your docker containers, you need to have Nvidia Container Toolkit installed in your machine. Just follow the steps described [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installation). After that, tell your docker instance to use Nvidia drivers. And then run ollama. (These steps are directly taken from [dockerhub](https://hub.docker.com/r/ollama/ollama). It’s as uncomplicated as it can get!)
 
 ```shell
 sudo nvidia-ctk runtime configure --runtime=docker
