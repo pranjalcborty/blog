@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: #3 RAG with PGVector"
-tags: ai genai agentic
+tags: agentic spring-ai
 author: "Pranjal Chakraborty"
 ---
 
