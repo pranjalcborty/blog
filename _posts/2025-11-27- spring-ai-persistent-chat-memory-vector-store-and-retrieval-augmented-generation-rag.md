@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: #2 Persistent Chat Memory, Vector Store and Retrieval Augmented Generation (RAG)"
-tags: ai genai agentic
+tags: agentic spring-ai
 author: "Pranjal Chakraborty"
 ---
 
