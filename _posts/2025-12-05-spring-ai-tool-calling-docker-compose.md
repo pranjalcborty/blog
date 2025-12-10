@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: #4 Docker Compose Set Up + Tool Calling 1"
-tags: ai genai agentic
+tags: agentic spring-ai
 author: "Pranjal Chakraborty"
 ---
 
