@@ -22,7 +22,7 @@ Now to setup `pgvector`, first, let’s check the postgres version of our docker
 
 ```shell
 docker exec -it postgres psql -U postgresu
-# SELECT version();
+~ SELECT version();
 ```
 
 My postgres container has version 18.1, so we’ll have to install `postgresql-18-pgvector`.
@@ -37,18 +37,18 @@ And now, we’ll run some queries through psql to create a database for this pro
 
 ```shell
 docker exec -it postgres psql -U postgresu
-# CREATE DATABASE vectordb;
-# \c vectordb;
+~ CREATE DATABASE vectordb;
+~ \c vectordb;
 
-# CREATE EXTENSION IF NOT EXISTS vector;
-# CREATE EXTENSION IF NOT EXISTS hstore;
-# CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+~ CREATE EXTENSION IF NOT EXISTS vector;
+~ CREATE EXTENSION IF NOT EXISTS hstore;
+~ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 ```
 
 So, all our required extensions are enabled. Now, before creating the table, we’ll have to check the output dimension of our embedding model. If you remember our current set up, we’re using our local Ollama instance and the embedding model we’re using is `mxbai-embed-large`. It has an output dimension of 1024 (check [here](https://www.mixedbread.com/docs/models/embedding/mxbai-embed-large-v1)). Let’s create the table accordingly and index our vector data column.
 
-```shell
-# CREATE TABLE IF NOT EXISTS vector_store (
+```sql
+CREATE TABLE IF NOT EXISTS vector_store (
  id uuid DEFAULT uuid_generate_v4() PRIMARY KEY,
  content text,
  metadata json,
