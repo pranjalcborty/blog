@@ -16,6 +16,14 @@ layout: default
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- if page.tags -%} 
+          <span>
+          • {% for tag in post.tags %}
+              {% capture tag_name %}{{ tag }}{% endcapture %}
+              <a href="/blog/{{ tag_name }}.html"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+            {% endfor %}
+        </span>
+        {%- endif -%}
       <!-- {%- if post.author -%}
       <span class="post-meta">&nbsp;•&nbsp;{{ post.author }}</span>
       {%- endif -%} -->
