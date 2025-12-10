@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring AI Series: #1 Locally run LLMs, Using Multiple LLMs as Clients, and Structured Outputs"
-tags: ai genai agentic
+tags: agentic spring-ai
 author: "Pranjal Chakraborty"
 ---
 
