@@ -23,13 +23,17 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
-     <span>
-        • {% for tag in page.tags %}
-            {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/blog/{{ tag_name }}.html"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-          {% endfor %}
-      </span>
+      {%- endif -%}
+      
+      {%- if page.tags -%} 
+          <span>
+          • {% for tag in page.tags %}
+              {% capture tag_name %}{{ tag }}{% endcapture %}
+              <a href="/blog/{{ tag_name }}.html"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+            {% endfor %}
+        </span>
+        {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
