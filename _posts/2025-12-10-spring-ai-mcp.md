@@ -272,7 +272,7 @@ Content-Type: application/json
 
 And ask our Ollama chat client to retrieve all the blog posts, this is what we see - 
 
-![](/blog/assets/images/13)
+![](/blog/assets/images/13.png)
 
 How cool is that! In practice, proper tool setup with appropriate prompts can eliminate hallucinations drastically.
 
