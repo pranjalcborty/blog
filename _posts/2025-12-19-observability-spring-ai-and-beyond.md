@@ -3,6 +3,7 @@ layout: post
 title: "Spring AI Series: #5 Observability: Spring AI and Beyond"
 tags: spring-ai spring
 author: "Pranjal Chakraborty"
+published: false
 ---
 
 > This blog is part of a series on [Spring AI](https://pranjal.net/blog/tag/spring-ai.html). Check out the previous article in this
