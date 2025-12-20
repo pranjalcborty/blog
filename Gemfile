@@ -19,7 +19,7 @@ group :jekyll_plugins do
 end
 
 # gem "jekyll-remote-theme"
-# gem 'jekyll-paginate-v2'
+gem 'jekyll-paginate-v2'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
