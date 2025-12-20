@@ -412,13 +412,13 @@ spring.ai.chat.client.observations.log-prompt=true
 spring.ai.tools.observations.include-content=true
 ```
 
-- we can find the trace id of a certain request -
+\- we can find the trace id of a certain request -
 ![](/blog/assets/images/14.png)
 
-- and get all the details of that request!
+\- and get all the details of that request!
 ![](/blog/assets/images/19.png)
 
 ---
-
+<br/>
 Tried to cover as much as possible in one blog post. This project at it's current state is available [here](https://github.com/pranjalcborty/spring-ai-agentic-starter). 
 In the next one, we'll create a frontend around this project so that we can actually use the tool that we made!
