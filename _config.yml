@@ -16,7 +16,7 @@ paginate_path: "/blog/page:num/"
 theme: minima
 # remote_theme: jekyll/minima
 # minima:
-  skin: dark
+#  skin: dark
 
 plugins:
   - jekyll-feed
