@@ -13,8 +13,9 @@ paginate: 4
 paginate_path: "/blog/page:num/"
 
 # Build settings
-# theme: minima
-remote_theme: jekyll/minima
+theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
   - jekyll-paginate
