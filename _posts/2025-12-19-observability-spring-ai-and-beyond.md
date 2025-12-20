@@ -238,9 +238,9 @@ querier => Running
 query-frontend => Running
 ```
 
-## Distribute Tracing Integration (Grafana Tempo)
+## Distributed Tracing Integration (Grafana Tempo)
 
-For our project Tempo is almost an overkill, but the ease of use kind of justifies it! We'll have our Tempo instance configured first, with Zipkin as the tracing backend.
+For our project, Tempo is almost an overkill, but the ease of use kind of justifies it! We'll have our Tempo instance configured first, with Zipkin as the tracing backend.
 
 ```yml
   tempo:
@@ -294,7 +294,7 @@ metrics_generator:
       filter_server_spans: false
 ```
 
-You could ignore the `metrics-genrator`s here if you just wanted to monitor tracing spans, but these metrics generators help us make some charts and graphs in Grafana.
+You could ignore the `metrics-genrator`s here if you just wanted to monitor tracing spans, but these metrics generators help us make some TraceQL driven charts and graphs in Grafana.
 
 On the application side, we'll enable Aspect Oriented Programming (AOP), micrometer tracing and Zipkin dependency.
 
@@ -347,11 +347,11 @@ grafana:
 
 This should be enough. I have disabled authentication since I'm using it locally. You can get rid of these environment variables if you want. 
 
-Aaaand, this should be enough! You should be able to access Grafana and add all the data sources from the UI. 
+Aaaand, now you can access Grafana and add all the data sources from the UI. 
 
 ![](/blog/assets/images/17.png)
 
-But you can also add all these in the configuration, so that whenever you are calling `docker compose up`, your Grafana is ready to use!
+But you can also add all these in the configuration file, so that whenever you are calling `docker compose up`, your Grafana is ready to use!
 
 ```yml
 apiVersion: 1
@@ -397,13 +397,13 @@ datasources:
             url: $${__value.raw}
 ```
 
-That's it! You observability pipeline is ready to use now.
+That's it! Your observability pipeline is ready to use now.
 
 Now you can monitor all the metrics and trace data exposed by Spring AI. For example, here I'm just checking token usage and server errors.
 
 ![](/blog/assets/images/18.png)
 
-And, if we turn on all types of content monitoring (this should be for testing purposes only) in our client application -
+And, if we turn on all types of plain-text chat content monitoring (this should be for testing purposes only) in our client application -
 
 ```properties
 spring.ai.chat.client.enabled=true
