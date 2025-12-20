@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring AI Series: #5 Observability: Spring AI and Beyond; with Grafana, Prometheus, Loki and Tempo"
+title: "Spring AI Series: #6 Observability: Spring AI and Beyond; with Grafana, Prometheus, Loki and Tempo"
 tags: spring-ai spring
 author: "Pranjal Chakraborty"
 ---
