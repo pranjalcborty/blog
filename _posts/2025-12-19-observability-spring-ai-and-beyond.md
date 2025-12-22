@@ -419,6 +419,6 @@ spring.ai.tools.observations.include-content=true
 ![](/blog/assets/images/19.png)
 
 ---
-<br/>
+<br>
 Tried to cover as much as possible in one blog post. This project at it's current state is available [here](https://github.com/pranjalcborty/spring-ai-agentic-starter). 
 In the next one, we'll create a frontend around this project so that we can actually use the tool that we made!
