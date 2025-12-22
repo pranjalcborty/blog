@@ -268,5 +268,5 @@ Or, if I ask where should I visit next, it gives me options without the places I
 Hamilton? Seriously?
 
 ---
-
+<br>
 I thought I would cover PGVector here, but this one has already gone for too long. I’ll do it in the next one.
