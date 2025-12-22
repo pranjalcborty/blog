@@ -362,5 +362,5 @@ Can you do the same with your Ollama endpoint? Mine was taking so long that I ha
 But you know the drill by now. Try different models, see what works for you.
 
 ---
-
+<br>
 We have tried a lot of stuff today. In the next instalment we’ll explore Vector database usage with Spring AI!
