@@ -51,7 +51,7 @@ layout: default
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <u><strong>{{ page }}</strong></u>
     {% elsif page == 1 %}
       <a href="{{ site.paginate_path | relative_url | replace: 'page-:num/', '' }}">{{ page }}</a>
     {% else %}
