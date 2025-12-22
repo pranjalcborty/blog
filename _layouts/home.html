@@ -42,7 +42,7 @@ layout: default
 
   <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="pagination" style="text-align: center">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>&nbsp;•&nbsp;
   {% else %}
