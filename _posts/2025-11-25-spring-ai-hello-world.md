@@ -104,5 +104,5 @@ Here, we have exposed an API that receives a `java.lang.String` and sends it as 
 !["Say my name"](/blog/assets/images/2.png)
 
 ---
-
+<br>
 If you have all these working, congratulations! If you think this was all too simple, you are right and that was the intention. We’ll try creating an API where we can have continuous conversation (and some more) in the next installment. See you there.
